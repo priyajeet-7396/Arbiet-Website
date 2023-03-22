@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto","sans-serif";
+
+}
+
+
+.container{
+  background:url('./images/WhatsApp\ Image\ 2023-03-21\ at\ 12.37.32.jpeg') ;
+  background-position: center;
+  background-size: cover;
+  height:100vh;
+  width:100%;
+  position: relative;
+}
+
+/* dark over lay on the image  */
+/* .container::after{
+  background: rgba(0, 0, 0, 0.6);
+  content: " ";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right:0;
+  left: 0;
+
+} */
+
+.page-heading{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  position: relative;
+  z-index: 2;
+}
+.page-heading h1 {
+  font-size: 5rem;
+  color: white;
+  font-weight: 300;
+  
+}
